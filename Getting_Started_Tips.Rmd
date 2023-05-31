@@ -1,0 +1,82 @@
+---
+title: "Colab on Data science : Tips on starting to use R"
+author: "Doris Suzuki Esmerio"
+date: '2023-05-31'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# How to import data into R ? ----
+
+1) For beginners : Click on "import dataset".
+2) For making a reproducible script: follow the instructions below.
+
+### Set up the right directory ----
+
+Simple set up :
+1) New project
+2) Crete New for creating a new folder. Or Use Existing Directory if you already have a folder on your local computer. 
+3) Create a folder to include your datasets. 
+
+
+If you want to include version control (it is a best practice):
+1) Set up a Github repository
+2) Open RStudio, Click on "Create New Project" , Version control , then paste the url from you github repository
+3) You can create a folder to include your datasets, either by the folder directory, or by code :
+
+```{r}
+dir.create("Data")
+```
+
+
+#### Check ----
+
+```{r}
+getwd() # this should show you where you are
+```
+
+
+# Load data
+
+```{r, eval=FALSE}
+
+### Load libraries ----
+
+library(readxl) # for xlsx
+library(readr) # for csv
+
+# Load data ----
+df <- read_xlsx("Data/example.xlsx",
+				sheet = 1)
+
+dataset <- read_csv("Data/example.csv")
+```
+
+
+
+# How to look at the data:
+
+```{r, eval=FALSE}
+df %>% glimpse()
+
+df %>% View()
+
+
+```
+
+
+# Keyboard shortcuts ----
+
+Run line of code: cntrl + enter
+
+Save file : cntrl + s
+
+Pipe ( %>% ): cntrl + shift + m
+
+Comment line : cntrl + shift + c
+
+
