@@ -5,5 +5,5 @@ This is a repository for sharing some simple and practical tips in R, python, Da
 
 For creating this repository, I used knowledge in:
 
-- R Scripting, RStudio, and RMarkdown
+- R Scripting, RStudio, RMarkdown and R in PowerBI
 - Git, Github
