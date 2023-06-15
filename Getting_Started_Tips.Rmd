@@ -18,17 +18,23 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Set up the right directory ----
 
 Simple set up :
+
 1) New project
+
 2) Crete New for creating a new folder. Or Use Existing Directory if you already have a folder on your local computer. 
+
 3) Create a folder to include your datasets. 
 
 
 If you want to include version control (it is a best practice):
+
 1) Set up a Github repository
+
 2) Open RStudio, Click on "Create New Project" , Version control , then paste the url from you github repository
+
 3) You can create a folder to include your datasets, either by the folder directory, or by code :
 
-```{r}
+```{r, eval = FALSE}
 dir.create("Data")
 ```
 
@@ -64,6 +70,29 @@ dataset <- read_csv("Data/example.csv")
 df %>% glimpse()
 
 df %>% View()
+
+
+```
+
+
+# How to write the modified file into a xlsx or csv:
+
+```{r, eval=FALSE}
+
+df %>% write_xlsx("Folder_where_you_want_to_save/name_of_the_file.xlsx")
+# or
+df %>% write_excek("Folder_where_you_want_to_save/name_of_the_file.xlsx")
+
+
+
+df %>% write.csv("Folder_where_you_want_to_save/name_of_the_file.csv")
+# or 
+df %>% write_csv("Folder_where_you_want_to_save/name_of_the_file.csv")
+
+# You can always look at the documentation to understand more details:
+?write_xlsx()
+?write.csv()
+?write_csv()
 
 
 ```
