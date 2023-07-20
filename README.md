@@ -10,7 +10,12 @@ It is based on tutoring workshops that I recently started to lead. The topics ar
 [01_Appending_Data](https://github.com/dorissuzukiesmerio/Doris_Tips/blob/master/01_appending_data.R) : How to load two datasets, do some very basic cleaning and append them together
 
 
+Forthcoming:
 
+- Load data from Google Sheets
+- Create flags
+- Specify columns data types programmatically
+- Word frequency plots
 
 For creating this repository, I used knowledge in:
 
