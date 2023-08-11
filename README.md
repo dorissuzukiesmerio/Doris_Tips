@@ -17,7 +17,7 @@ It is based on tutoring workshops that I recently started to lead. The topics ar
 
 ## Python Use Cases
 
-1) [Translation of a text column to English](https://github.com/dorissuzukiesmerio/Doris_Tips/blob/master/Python_UseCases/powerbi_python_translation_script.py)
+1) 🌍 [Translation of a text column to English](https://github.com/dorissuzukiesmerio/Doris_Tips/blob/master/Python_UseCases/powerbi_python_translation_script.py)
 
 ## Forthcoming:
 
@@ -26,7 +26,7 @@ It is based on tutoring workshops that I recently started to lead. The topics ar
 - Word frequency plots in R (NLP concepts)
 - Connecting and querying a remote database using RStudio
 
-For creating this repository, I used knowledge in:
+## 💻 For creating this repository, I used knowledge in:
 
 - R Scripting, RStudio, RMarkdown and R in PowerBI
 - Python and Python in PowerBI
