@@ -6,8 +6,8 @@ It is based on tutoring workshops that I recently started to lead. The topics ar
 
 
 ## R Use Cases
-[00_Getting_Started](https://github.com/dorissuzukiesmerio/Doris_Tips/blob/master/Getting_Started_Tips.pdf) : Set up - How to open an RProject ; load excel and csv files into RStudio; look at them; save the transformed file into an excel or csv.
-- For RMarkdown code used to produce the pdf: [click here](https://github.com/dorissuzukiesmerio/Doris_Tips/blob/master/Getting_Started_Tips.Rmd)
+[00_Getting_Started](https://github.com/dorissuzukiesmerio/Doris_Tips/blob/master/R_UseCases/Getting_Started_Tips.pdf) : Set up - How to open an RProject ; load excel and csv files into RStudio; look at them; save the transformed file into an excel or csv.
+- For RMarkdown code used to produce the pdf: [click here](R_UseCases/Getting_Started_Tips.Rmd)
 
 [01_Appending_Data](https://github.com/dorissuzukiesmerio/Doris_Tips/blob/master/R_UseCases/01_appending_data.R) : How to load two datasets, do some very basic cleaning and append them together
 
