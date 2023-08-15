@@ -19,8 +19,10 @@ It is based on tutoring workshops that I recently started to lead. The topics ar
 
 1) 🌍 [Translation of a text column to English](https://github.com/dorissuzukiesmerio/Doris_Tips/blob/master/Python_UseCases/powerbi_python_translation_script.py)
 
-## Forthcoming:
+## Possible forthcoming topics:
 
+- Web scraping IPA's website.
+- PDF to a data table.
 - Load data in R from Google Sheets
 - Specify columns data types programmatically in R
 - Word frequency plots in R (NLP concepts)
